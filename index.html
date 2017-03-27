@@ -1,1 +1,28 @@
 
+<!DOCTYPE html>
+    <?!= include('js'); ?>
+
+<html>
+  <head>
+    <base target="_top">
+    <?!= include('css'); ?>
+  </head>
+  <body>
+    <div >
+           
+
+<div ng-app="gemStore">
+    <div ng-controller="StoreController">
+    <h1>Write here</h1>
+        <input ng-model="name" ng-keyup="NameChange()">
+        <h1>{{greeting}}</h1>
+        <h2>{{name}}</h2>
+    </div>
+    
+    </div>
+    
+    </div>
+  </body>
+</html>
+
+
